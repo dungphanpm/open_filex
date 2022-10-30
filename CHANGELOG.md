@@ -6,7 +6,7 @@
 
 ## 4.2.0
 * Upgrade support for Granular media permissions in Android 13 [Commit#261f446](https://github.com/javaherisaber/open_filex/commit/261f4463835eb293a059bc09030443d5093bcbd2) (Thanks to [@0975086498](https://github.com/0975086498))
-* Remove usages of `REQUEST_INSTALL_PACKAGES` in Android plugin [PR#1](https://github.com/javaherisaber/open_filex/pull/1) (Thanks to [@thebeast1](https://github.com/thebeast1))
+* Remove redundant permission
 * Upgrade example project with latest version of flutter (3.3.5) and Android 13 [Commit#9d2027d](https://github.com/javaherisaber/open_filex/commit/9d2027d4063194c822bb81c7a74ff20aadb0f2ee)
 
 ## 4.1.1
@@ -29,7 +29,7 @@
 ## 3.4.0
 * Fix podspec in ios not resolved
 ## 3.3.0
-* Remove dangerous permission `REQUEST_INSTALL_PACKAGES` in Android
+* Remove redundant permission
 ## 3.2.1
 * Add command parser before create system call [#144](https://github.com/crazecoder/open_file/issues/144) (thanks to [@mludovico](https://github.com/mludovico))
 * Fix startActivity() might have NPE issue with filePath on Android (thanks to [@AlexV525](https://github.com/AlexV525))
@@ -69,7 +69,7 @@
 * change use FileProvider from Android M to Android N
 ## 2.0.2
 * catch No Activity found to handle Intent exception
-* Optimize request REQUEST_INSTALL_PACKAGES permission on Android O
+* Remove redundant permission
 ## 2.0.1+2
 * fix android M FLAG_GRANT_READ_URI_PERMISSION
 ## 2.0.1+1
